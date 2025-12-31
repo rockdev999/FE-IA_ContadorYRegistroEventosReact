@@ -1,0 +1,162 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  max-width: 500px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+}
+
+.counter-container h2 {
+  margin-bottom: 1rem;
+  color: #0077cc;
+}
+
+.controls {
+  margin-bottom: 1.5rem;
+}
+
+.number-input {
+  width: 60px;
+  padding: 0.3rem;
+  margin-right: 0.5rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+.btn {
+  padding: 0.5rem 1rem;
+  margin: 0 0.3rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #fff;
+  font-weight: bold;
+}
+
+.increment {
+  background-color: #28a745;
+}
+
+.decrement {
+  background-color: #dc3545;
+}
+
+.reset {
+  background-color: #6c757d;
+}
+
+.undo {
+  background-color: #ffc107;
+  color: #000;
+}
+
+.btn:hover {
+  opacity: 0.85;
+}
+
+.history-list {
+  list-style: none;
+  padding: 0;
+  max-height: 200px;
+  overflow-y: auto;
+  text-align: left;
+  border-top: 1px solid #ddd;
+  padding-top: 0.5rem;
+}
+
+.history-list li {
+  padding: 0.2rem 0;
+  font-size: 0.95rem;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+}
+
+.add-product,
+.search {
+  margin-bottom: 1rem;
+}
+
+input[type="text"] {
+  padding: 0.5rem;
+  margin-right: 0.5rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  width: 200px;
+}
+
+button {
+  padding: 0.5rem 0.8rem;
+  margin: 0 0.3rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  color: #fff;
+}
+
+button:hover {
+  opacity: 0.85;
+}
+
+button.btn-clear {
+  background-color: #dc3545;
+}
+
+.add-product button {
+  background-color: #28a745;
+}
+
+.product-list {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.product-list li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.product-list li button {
+  margin-left: 0.5rem;
+  background-color: #007bff;
+}
+
+.product-list li button:last-child {
+  background-color: #dc3545;
+}
